@@ -1,0 +1,381 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.connectBut {
+    margin-top: 4px;
+    cursor: pointer;
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #2354ff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    transition: .14s;
+}
+.connectBut:hover {
+    transform: scale(0.99);
+    box-shadow: 0px 0px 24px #2354ff20;
+}
+
+.ton-connect {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px !important;
+    cursor: pointer !important;
+    width: 100% !important;
+    padding: 20px !important;
+    border-radius: 12px !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    border: 0 !important;
+    outline: none !important;
+    transition: .14s !important;
+    
+}
+
+.go1487791704 {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}
+
+.ton-connect button {
+    box-shadow: none !important;
+    margin-top: 4px !important;
+    cursor: pointer !important;
+    width: 100% !important;
+    padding: 20px !important;
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+    border-radius: 12px !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    border: 0 !important;
+    outline: none !important;
+    transition: .14s !important;
+
+}
+
+.ton-connect:hover {
+    transform: scale(0.99) !important;
+    box-shadow: 0px 0px 24px #ffffff20 !important;
+}
+
+
+.ln, .ln-inner, .ln-top {
+    min-height: calc(100vh - 118px);
+}
+.swapMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, hsl(20, 100%, 60%), hsl(340, 70%, 40%), hsl(230, 30%, 20%));
+    max-width: 640px;
+    width: 100%;
+    border-radius: 24px;
+    padding: 16px;
+    gap: 4px;
+}
+.swapInp {
+    font-family: Outfit, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 16px;
+    width: 100%;
+    padding: 36px 20px; 
+    border: 0;
+    outline: none;
+    font-size: 42px;
+    font-weight: 600;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 16px;
+    -webkit-box-shadow: none;
+}
+
+.buyZone {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    color: #89888e;
+    position: relative;
+    height: 0px;
+    top: 24px;
+    text-align: left;
+    margin-left: 20px;
+}
+.buyZone .inputTitle {
+    top: 16px;
+    gap: 58px;
+}
+.lineCube {
+    top: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 0px;
+}
+.cube {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background-color: #000000;
+    border: 4px solid hsl(0, 9%, 80%);
+    transition: .24s;
+}
+.cube:hover {
+    box-shadow: 0px 0px 12px #25232d40;
+    background-color: hsl(0, 0%, 4%);
+}
+.connectBut {
+    margin-top: 4px;
+    cursor: pointer;
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #2354ff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    transition: .14s;
+}
+.connectBut:hover {
+    transform: scale(0.99);
+    box-shadow: 0px 0px 24px #ffffff20;
+}
+.overlayZone {
+    height: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tokenFrame {
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    right: 20px;
+    top: 70px;
+    position:   relative;
+    background-color: #000000;
+    border: 1px solid #f1b9b9;
+    padding: 6px 12px 6px 6px;
+    border-radius: 24px;
+    transition: .14s;
+}
+.tokenFrame img {
+    width: 28px;
+    height: 28px;
+}
+.tokenFrame p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+.tokenFrame:hover {
+    background-color: hsl(0, 0%, 4%);
+}
+.buyZone .overlayZone .tokenFrame {
+    top: 62px;
+}
+.tokenFrame i {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100dvh;
+    overflow: hidden;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    animation: fadeIn 0.5s;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    border: 1px solid #89888e20;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 16px;
+    max-width: 460px;
+    width: 100%;
+    box-shadow: 0px 0px 144px #00000030;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 19px;
+    font-weight: 500;
+}
+#close {
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 24px;
+}
+.modal-content .list {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 420px;
+    overflow-y: auto;
+}
+.modal-content .list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-content .list::-webkit-scrollbar-track {
+  background: #13111c;
+}
+
+.modal-content .list::-webkit-scrollbar-thumb {
+  background: #1a1625;
+}
+
+
+
+
+.tokenSelect {
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 16px;
+}
+.tokenSelect:hover {
+    background-color: hsl(0, 0%, 4%);
+}
+.tokenSelect img {
+    width: 36px;
+    height: 36px;
+}
+.tokenInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.tokenName {
+    font-size: 17px;
+    font-weight: 500;
+}
+.tokenSymb {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff80;
+}
+@media screen and (max-width:600px) {
+    .modal-content {
+        margin: 45% auto;
+    }
+}
+.modal-content .line {
+    margin-top: 24px;
+    width: 100%;
+    height: 1px;
+    background-color: #89888e20;
+}
+
+.infoMenu {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    width: 100%;
+    border-radius: 24px;
+    padding: 16px;
+    gap: 12px;
+}
+.priceInfo {
+    font-size: 17px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.lowContrast {
+    color: rgba(223, 145, 0, 0.502);
+}
+.addInfoLine {
+    color: #ffffff90;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
